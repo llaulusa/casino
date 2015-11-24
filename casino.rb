@@ -27,7 +27,8 @@ class Person
   end
 end
 # This is our random event array
-@rand_event = Array.new()
+# @rand_event = Array.new()
+@rand_event = Array.new(97, "Nothing interesting happened")
 @rand_event << "You were mugged and lost $50"
 @rand_event << "You lost your wallet! you have no money left"
 @rand_event << "You trip on a wallet and find $100"
